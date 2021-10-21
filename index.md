@@ -1,1 +1,3 @@
-{% include front-page-blocks.html %}
+---
+layout: front-page
+---
