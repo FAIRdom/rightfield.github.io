@@ -1,0 +1,6 @@
+# project
+_site
+.idea/
+.jekyll-cache/
+*.orig
+Gemfile.lock
