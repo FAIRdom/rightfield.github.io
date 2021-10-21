@@ -19,7 +19,7 @@ nav ul {
 blockquote, q {
     quotes: none;
     border: 1px solid #bbbbbb;
-    background: #d8d8d8 url(/sites/all/themes/company/images/quote.png) no-repeat;
+    background: #d8d8d8 url(/assets/images/quote.png) no-repeat;
     padding: 10px 5px 5px 47px;
     text-shadow: 1px 1px #fff;
     margin: 5px 0;
@@ -337,7 +337,7 @@ td {
     font-size: 1em;
     display: block;
     color: #FFF;
-    background: #2B568D url(/sites/all/themes/company/images/diagonal.png) repeat !important;
+    background: #2B568D url(/assets/images/diagonal.png) repeat !important;
 }
 
 #navigation {
@@ -440,7 +440,7 @@ li.sfHover {
     height: 5px;
     text-indent: -999em;
     overflow: hidden;
-    background: url(/sites/all/themes/company/images/arrows-down.png);
+    background: url(/assets/images/arrows-down.png);
 }
 
 a > .sf-sub-indicator {
@@ -457,7 +457,7 @@ a:focus > .sf-sub-indicator, a:hover > .sf-sub-indicator, a:active > .sf-sub-ind
     top: 1em;
     width: 5px;
     height: 9px;
-    background: url(/sites/all/themes/company/images/arrows-side.png);
+    background: url(/assets/images/arrows-side.png);
 }
 
 #main-menu .menu ul a > .sf-sub-indicator {
@@ -472,7 +472,7 @@ a:focus > .sf-sub-indicator, a:hover > .sf-sub-indicator, a:active > .sf-sub-ind
     margin: 0 !important;
     border-right: none !important;
     border-bottom: none !important;
-    background: url(/sites/all/themes/company/images/shadow.png) no-repeat bottom right;
+    background: url(/assets/images/shadow.png) no-repeat bottom right;
     padding: 0 3px 3px 0px !important;
 }
 
@@ -501,17 +501,17 @@ a:focus > .sf-sub-indicator, a:hover > .sf-sub-indicator, a:active > .sf-sub-ind
 
 #main-menu .menu ul a.active {
     color: #000 !important;
-    background: #09beeb url(/sites/all/themes/company/images/diagonal.png) repeat !important;
+    background: #09beeb url(/assets/images/diagonal.png) repeat !important;
 }
 
 #main-menu .menu ul a.active:hover {
     color: #000 !important;
-    background: #09beeb url(/sites/all/themes/company/images/diagonal.png) repeat !important;
+    background: #09beeb url(/assets/images/diagonal.png) repeat !important;
 }
 
 #homepage-slider-wrap {
     background-color: #1D4577;
-    background-image: url(/sites/all/themes/company/images/slider-gradient.png);
+    background-image: url(/assets/images/slider-gradient.png);
     background-repeat: repeat-x;
     background-position: bottom;
     width: 980px;
@@ -520,7 +520,7 @@ a:focus > .sf-sub-indicator, a:hover > .sf-sub-indicator, a:active > .sf-sub-ind
 
 #homepage-slider-pattern {
     width: 100%;
-    background-image: url(/sites/all/themes/company/images/diagonal-right.png);
+    background-image: url(/assets/images/diagonal-right.png);
     background-repeat: repeat;
     #padding: 40px 0;
 }
@@ -575,7 +575,7 @@ a:focus > .sf-sub-indicator, a:hover > .sf-sub-indicator, a:active > .sf-sub-ind
     left: 20px;
     width: 940px;
     height: 40px;
-    background-image: url(/sites/all/themes/company/images/slider-shadow.png);
+    background-image: url(/assets/images/slider-shadow.png);
     background-position: bottom;
     background-repeat: no-repeat;
 }
@@ -817,8 +817,8 @@ body.sidebar-first #post-content {
 
 #footer-wrap {
     color: #fefefe;
-    #background: #1D4577 url(/sites/all/themes/company/images/slider-gradient.png);
-    background: #1D4577 url(/sites/all/themes/company/images/diagonal-right.png) repeat;
+    #background: #1D4577 url(/assets/images/slider-gradient.png);
+    background: #1D4577 url(/assets/images/diagonal-right.png) repeat;
     position: relative;
     font-size: 14px;
     line-height: 1.5em;
@@ -858,7 +858,7 @@ body.sidebar-first #post-content {
 }
 
 #bottom {
-    background-image: url(/sites/all/themes/company/images/footer-overlay.png);
+    background-image: url(/assets/images/footer-overlay.png);
     background-position: top center;
     background-repeat: no-repeat;
     width: 1000px;
@@ -925,7 +925,7 @@ body.sidebar-first #post-content {
 
 #footer-bottom-wrap {
     width: 100%;
-    background: #101115 url(/sites/all/themes/company/images/diagonal-right.png) repeat;
+    background: #101115 url(/assets/images/diagonal-right.png) repeat;
     position: relative;
 }
 
@@ -1071,7 +1071,7 @@ h2.title a {
 
 .links li a {
     -moz-transition: background 0.2s ease-in-out 0s;
-    background-image: url(/sites/all/themes/company/images/diagonal-right.png);
+    background-image: url(/assets/images/diagonal-right.png);
     background-repeat: repeat;
     border-radius: 50px 50px 50px 50px;
     color: #444;
@@ -1097,7 +1097,7 @@ h2.title a {
     -moz-transition: all 0.2s ease-in-out 0s;
     border-radius: 5px;
     cursor: pointer;
-    background: url(/sites/all/themes/company/images/diagonal.png) repeat scroll 0 0 #5AA2EF;
+    background: url(/assets/images/diagonal.png) repeat scroll 0 0 #5AA2EF;
     color: #fff;
     padding: 4px 6px;
     margin-right: 4px;
@@ -1215,7 +1215,7 @@ ul.secondary a.active {
 
 .field-name-field-tags a {
     display: inline-block;
-    background: url(/sites/all/themes/company/images/tag.png) no-repeat;
+    background: url(/assets/images/tag.png) no-repeat;
     padding: 0px 8px 0 16px;
     height: 22px;
     color: #6c6c6c;
@@ -1385,7 +1385,7 @@ h3.comment-title a {
 }
 
 #forum td.forum .icon, #forum .icon div {
-    background: url(/sites/all/themes/company/images/no-new-posts.png) no-repeat;
+    background: url(/assets/images/no-new-posts.png) no-repeat;
     width: 35px;
     height: 35px;
 }
