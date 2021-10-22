@@ -3,3 +3,12 @@ theme: jekyll-theme-cayman
 title: 'RightField'
 description: 'Semantic data annotation by Stealth'
 google_analytics: 'UA-71406140-6'
+
+defaults:
+  -
+    scope:
+      path: "pages"
+      type: "pages"
+    values:
+      permalink: /:basename:output_ext
+      layout: "default"
