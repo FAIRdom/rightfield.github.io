@@ -3,3 +3,8 @@
 #main {
     width: 980px; !important;
 }
+
+img.screenshot {
+    margin: 0px auto;
+    display: block;
+}
