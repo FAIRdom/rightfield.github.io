@@ -1,7 +1,7 @@
 <head>
     <meta charset="UTF-8">
 
-    <link rel="shortcut icon" href="{{ '/assets/images/favicon.png' | relative_url }}" type="image/png">
+    <link rel="shortcut icon" href="{{ '/assets/images/favicon.png?v=' | append: site.github.build_revision | relative_url }}" type="image/png">
 
     {% seo %}
     <link rel="preconnect" href="https://fonts.gstatic.com">
