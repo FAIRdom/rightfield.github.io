@@ -11,6 +11,12 @@ function external_new_window() {
     }
 }
 
+function active_tab(){
+    var path = location.pathname.replace('.html','');
+    $(".menu li.leaf a[href='"+path+"']").addClass('active');
+}
+
 $(document).ready(function () {
+    active_tab();
     external_new_window();
 });
