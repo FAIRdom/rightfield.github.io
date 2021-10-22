@@ -1,6 +1,8 @@
 <head>
     <meta charset="UTF-8">
 
+    <link rel="shortcut icon" href="{{ '/assets/images/favicon.png' | relative_url }}" type="image/png">
+
     {% seo %}
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
@@ -14,10 +16,9 @@
     <link type="text/css" rel="stylesheet" href="{{ '/assets/css/css_4.css?v=' | append: site.github.build_revision | relative_url }}" media="all" />
     <!--    <link rel="stylesheet" href="{{ '/assets/css/style.css' }}">-->
 <!--        <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">-->
-    <link rel="shortcut icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}">
 
     <script src="{{ 'assets/js/jquery-3.5.1.min.js' | relative_url }}"></script>
-    <script src="{{ 'assets/js/main.js' | relative_url }}"></script>
+    <script src="{{ 'assets/js/main.js?v=' | append: site.github.build_revision | relative_url }}"></script>
 
     {% include head-custom.html %}
 
