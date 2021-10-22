@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
 
+title: 'RightField'
+description: 'Semantic data annotation by Stealth'
 google_analytics: 'UA-71406140-6'
