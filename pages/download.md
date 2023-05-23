@@ -5,7 +5,7 @@ title: Getting RightField
 _The current version was released on 28th September 2020_
 
 [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/index.html) or above is required to run RightField, and
-it is licensed under the [BSD](https://raw.github.com/myGrid/RightField/master/LICENSE) licence.
+it is licensed under the [BSD](https://raw.github.com/FAIRdom/RightField/master/LICENSE) licence.
 
 
 <ul class="download_list"><li class="download_list_item">
